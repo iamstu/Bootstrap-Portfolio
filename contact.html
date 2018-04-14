@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" src="reset.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="body-css">
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom padding-0">
+        <div class="container">
+            <a class="bio-name" href="#">Stuart LaFollette</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav menu-buttons">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link portfolio" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="description">
+                <div class="row" id="bio">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">Contact</div>
+                </div>  
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- use type=text/email for single line input, textarea tag for expandable box with no type-->
+                        <form>
+                            <div class="form-group">
+                                <label for="name-input">Name</label>
+                                    <input type="text" class="form-control" id="name-input" placeholder="Slavoj Zizek">
+                            </div>
+                            <div class="form-group">
+                                <label for="email-input">Email Address</label>
+                                    <input type="email" class="form-control"  id="email-input" placeholder="example@email.net">
+                            </div>
+                            <div>
+                                <label for="message-input">Message</label>
+                                    <textarea class="form-control" id="message-input"></textarea>
+                            </div>
+                            <div>
+                                <br>
+                                <!-- styled button tag directly and used bootstrap's btn styles to remove borders-->
+                                <button class="btn" type="submit">Submit</button>
+                            </div>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    
+        
+<footer class="footer" id="footer-bg">
+        <div class="container"  >
+            <p id="copyright">©Copyright</p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

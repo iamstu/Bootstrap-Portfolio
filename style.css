@@ -1,0 +1,106 @@
+body, html{
+    height: 100%;
+    background-image: url(images/seamless_paper_texture.png);
+}
+
+.body-css{
+    color: #777777;
+    background-image: url(images/seamless_paper_texture.png);
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+.bio-name{
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+#description{
+    background-color: #fff;
+    padding: 0 20px 0 20px;
+}
+
+
+header{
+    height: 65px;
+    background-color: #fff;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    margin-bottom: 35px;
+}
+
+#menu-buttons{
+    min-width: 210px;
+}
+
+.portfolio{
+    border: #cccccc;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+}
+
+#bio{
+    background-color: #fff;
+    color: #4aaaa5;
+    text-align: left;
+    padding: 30px 0 25px 0;
+    border: #cccccc;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 160px;
+    max-height: 125px;
+    margin: 0 0 25px 0;
+}
+
+p {
+    line-height: 1.5;
+    margin: 5px 0 25px 0;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #4aaaa5;
+    margin: 0px 0 0 0;
+    width: 100%;   
+    background-color: #666666;
+}
+
+#footer-bg{
+    background-color: #666666;
+}
+
+#copyright{
+    color: #c9c9c1;
+    text-align: center;
+    padding: 0 0 0 0;    
+
+}
+
+figure {
+    width: 160px;
+    height: 120px;
+}
+
+button {
+    color: #fff;
+    background-color: #4aaaa5;
+}
